@@ -345,7 +345,7 @@ campus-geoquest-iot/
 │   └── troubleshooting.docx    # Common issues and solutions
 |
 ├── images/
-│   ├── sample.jpg              # Sample Avatars
+│   ├── sample.png              # Sample Output Dashboard
 │   └── map.png                 # Game map screenshot
 |
 ├── libraries/                  # Required Arduino libraries (reference)
