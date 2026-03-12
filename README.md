@@ -332,22 +332,24 @@ You can monitor progress in the Serial Monitor:
 ## 📁 Project Structure
 
 ```
-campus-geoquest/
+campus-geoquest-iot/
 ├── src/
-│   └── main.ino              # Main Arduino sketch
+│   └── midtProject-IOT.ino         # Main Arduino sketch
+|
 ├── docs/
-│   ├── HARDWARE_GUIDE.md     # Wiring and assembly instructions
-│   ├── SOFTWARE_GUIDE.md     # Detailed code walkthrough
-│   └── TROUBLESHOOTING.md    # Common issues and solutions
+|   ├── hardwareGuide.docx      # Wiring and assembly instructions
+│   ├── softwareGuide.docx      # Detailed code walkthrough
+│   └── troubleshooting.docx    # Common issues and solutions
+|
 ├── images/
-│   ├── wiring_diagram.png    # Visual wiring reference
-│   ├── gps_module.jpg        # Neo-M8N module photo
-│   └── campus_map.png        # Game map screenshot
-├── libraries/                # Required Arduino libraries (reference)
+│   ├── sample.jpg              # Sample Avatars
+│   └── map.png                 # Game map screenshot
+|
+├── libraries/                  # Required Arduino libraries (reference)
 │   ├── WebSockets/
 │   ├── TinyGPSPlus/
 │   └── ArduinoJson/
-├── LICENSE                   # MIT License
+|
 └── README.md                # This file
 ```
 
@@ -373,8 +375,8 @@ We welcome contributions to improve the Campus GeoQuest system!
 
 1. **🍴 Fork the Repository**
    ```bash
-   git clone https://github.com/your-username/campus-geoquest.git
-   cd campus-geoquest
+   git clone https://github.com/your-username/campus-geoquest-iot.git
+   cd campus-geoquest-iot
    ```
 
 2. **🌿 Create Feature Branch**
@@ -400,9 +402,7 @@ We welcome contributions to improve the Campus GeoQuest system!
 
 ---
 
-## 📜 License
 
-This project is licensed under the **MIT License**.
 
 **Key Points:**
 - ✅ Free for educational and personal use
@@ -467,13 +467,6 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-**🗺️ Ready to start your quest? Power up your ESP32 and hit the campus! 🗺️**
-
-[![GitHub stars](https://img.shields.io/github/stars/your-username/campus-geoquest?style=social)](https://github.com/your-username/campus-geoquest/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/campus-geoquest?style=social)](https://github.com/your-username/campus-geoquest/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/your-username/campus-geoquest)](https://github.com/your-username/campus-geoquest/issues)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 **Live Tracking Map**: [https://esp32-tracker.kiyokodyele.com/](https://esp32-tracker.kiyokodyele.com/)
 
 Made with ❤️ for IoT Education | Follow the project for updates!
@@ -511,7 +504,5 @@ Made with ❤️ for IoT Education | Follow the project for updates!
 - ✅ Auto-reconnection logic
 - ✅ JSON message protocol
 
-
 ---
 
-**Last Updated**: March 2026 | **Maintained by**: Campus GeoQuest Team
