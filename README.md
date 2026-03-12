@@ -2,7 +2,7 @@
 
 A real-time IoT geolocation game where teams connect Neo-M8N GPS modules to ESP32 microcontrollers and stream live location data to a central web server over secure WebSocket connections. Navigate the campus, earn points by reaching bot positions, and compete in an interactive GPS-based challenge!
 
-![image alt]()
+![image alt](https://github.com/mtxmln-devs/Campus_GeoQuest-IOT/blob/b5ffbc99bf8386162f822dcf0dc4255ff9ba4a49/sample.png)
 
 
 ## 📖 Project Overview
