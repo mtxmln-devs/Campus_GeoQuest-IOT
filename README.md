@@ -5,6 +5,15 @@ A real-time IoT geolocation game where teams connect Neo-M8N GPS modules to ESP3
 ![image alt](https://github.com/mtxmln-devs/Campus_GeoQuest-IOT/blob/b5ffbc99bf8386162f822dcf0dc4255ff9ba4a49/sample.png)
 
 
+<div align="center">
+  
+[![Platform](https://img.shields.io/badge/Platform-ESP32-E7352C?style=flat&logo=espressif)](https://www.espressif.com/)
+[![Framework](https://img.shields.io/badge/Framework-Arduino-00979D?style=flat&logo=arduino)](https://www.arduino.cc/)
+[![Language](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat&logo=c%2B%2B)](https://isocpp.org/)
+</div>
+
+---
+
 ## 📖 Project Overview
 
 **Campus GeoQuest** is a real-time IoT geolocation game that combines hardware, networking, and geospatial technology into an engaging competitive experience. Teams physically navigate campus grounds while their ESP32 devices stream GPS coordinates to a live web map, competing to reach designated bot positions and trigger collision-based scoring.
